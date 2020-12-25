@@ -6,3 +6,12 @@ body {
   color: #bebebe;
   font-style: italic;
 }
+
+.App h1 {
+  font-size: 3.5rem;
+}
+
+.todo li {
+  border-radius: 4px;
+  width: 15rem;
+}

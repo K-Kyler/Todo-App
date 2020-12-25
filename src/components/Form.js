@@ -28,7 +28,7 @@ const Form = ({ inputText, setInputText, todos, setTodos }) => {
                 <div className="form-group row">
                     <div className="offset-md-2 col-12 col-md-6 d-flex">
                         <input value={inputText} onChange={inputTextHandler} type="text" className="form-control" placeholder="What need to be done?" />
-                        <button type="submit" className="btn btn-danger ml-1">
+                        <button type="submit" className="btn btn-success ml-1">
                             <i className="fa fa-plus-square"></i>
                         </button>
                     </div>
