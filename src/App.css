@@ -15,3 +15,8 @@ body {
   border-radius: 4px;
   width: 15rem;
 }
+
+.todo-completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
