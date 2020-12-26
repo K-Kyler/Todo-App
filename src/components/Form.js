@@ -29,7 +29,7 @@ const Form = ({ inputText, setInputText, todos, setTodos, setFilterStatus }) => 
         <div className="container pt-5">
             <form className="todo-form" onSubmit={submitTodoHandler}>
                 <div className="form-group row">
-                    <div className="offset-md-2 col-12 col-md-6 d-flex">
+                    <div className="offset-md-2 col-12 col-md-6 d-flex py-2">
                         <input 
                             value={inputText} 
                             onChange={inputTextHandler} 
@@ -42,7 +42,7 @@ const Form = ({ inputText, setInputText, todos, setTodos, setFilterStatus }) => 
                         </button>
                     </div>
 
-                    <div className="col-12 col-md-2 col-2">
+                    <div className="col-12 col-md-2 col-2 py-2">
                         <select onChange={filterStatusHandler} className="form-control">
                             <option>All</option>
                             <option>Completed</option>
