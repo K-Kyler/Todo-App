@@ -20,7 +20,10 @@ const TodoItem = ({ todo, itemContent, todos, setTodos }) => {
     return (
         <div className="todo p-2 d-flex align-items-center justify-content-center">
             <li className={`bg-white p-2 mr-1 ${todo.isCompleted ? "todo-completed" : ""}`}>{itemContent}</li>
-            <button onClick={completeHandler} className={`btn mr-1 ${todo.isCompleted ? "btn-primary" : "btn-dark"}`}>
+            <button 
+                onClick={completeHandler} 
+                className={`btn mr-1 ${todo.isCompleted ? "btn-primary" : "btn-dark"}`}
+            >
                 <i className="fa fa-check"></i>
             </button>
             <button onClick={deleteHandler} className="btn btn-danger">
